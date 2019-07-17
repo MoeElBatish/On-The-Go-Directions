@@ -10,6 +10,7 @@ requests = "*"
 beautifulsoup4 = "*"
 mechanize = "*"
 twilio = "*"
+flask = "*"
 
 [requires]
 python_version = "3.7"
