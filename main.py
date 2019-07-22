@@ -15,6 +15,7 @@ def sendText(classes_today):
     from_="+###########",
     body=("Welcome to One The Go Directions!\nTo get started enter your current location seperating each entity with a space and then followed"+
     "by a dot then your destination with spaces seperating each entity\nFor Example: New York Kats Deli.Toronto Pearson Airport".structuredMessage())
+    )
 app = Flask(__name__)
 
 @app.route("/sms", methods=['GET', 'POST'])
